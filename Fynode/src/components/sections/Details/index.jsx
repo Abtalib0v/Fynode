@@ -12,6 +12,7 @@ const Details = () => {
   useEffect(() => {
     apiFetchData();
   }, []);
+
   return (
     <div className="container mx-auto px-11 font-[inter]">
       <div className="top-title py-[35px] flex items-center gap-[42px]">

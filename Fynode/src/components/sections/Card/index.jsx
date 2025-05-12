@@ -13,7 +13,7 @@ const Card = () => {
   useEffect(() => {
     apiFetchData();
   }, []);
-    const quality = data.filter(item => item.id === 1 || item.id ===2);
+    const quality = data.slice(0,2);
 
   return (
     <div className="container mx-auto px-11 font-[inter]">
