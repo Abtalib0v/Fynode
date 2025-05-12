@@ -1,0 +1,166 @@
+{
+  "quality": [
+    {
+      "id": 1,
+      "image": "./src/assets/banner-06.webp",
+      "name": "Elite Quality",
+      "title": "Where Excellence Meets Deep Resonance",
+      "desc": "Fynode: Redefining Modern Tech",
+      "button": "Shop Now"
+    },
+    {
+      "id": 2,
+      "image": "./src/assets/banner-05.jpg",
+      "name": "Highest Quality",
+      "title": "Where Creativity Meets Premium Sound",
+      "desc": "Fynode: Excellence Simplified",
+      "button": "Shop Now"
+    },
+    {
+      "id": 3,
+      "image": "./src/assets/banner-02.jpg",
+      "name": "Highest Qualitys",
+      "title": "Elevate Your Audio Experience with Sony Headphones",
+      "desc": "Quisque venenatis malesuada ipsum sollicitudin tristiques.",
+      "button": "Shop Now"
+    }
+  ],
+  "detail": [
+    {
+      "id": 1,
+      "image": "./src/assets/collection-earhphones.jpg",
+      "title": "Discover exclusive collaborations",
+      "desc": "Fynode: Innovation in Every Detail",
+      "button": "Shop Now"
+    },
+    {
+      "id": 2,
+      "image": "./src/assets/collection-headphones.jpg",
+      "title": "Showcasing Iconic Collaborations",
+      "desc": "Fynode: Redefining Modern Tech",
+      "button": "Shop Now"
+    },
+    {
+      "id": 3,
+      "image": "./src/assets/collection-speakers.jpg",
+      "title": "Celebrating Unique Synergies",
+      "desc": "Fynode: Style Meets Performance",
+      "button": "Shop Now"
+    }
+  ],
+  "total": [
+    {
+      "id": 1,
+      "number": "1.5k",
+      "title": "Happy Customers",
+      "desc": "Ut sit amet aliquam libero. Vestibulum ut consectetur orci. Pellentesque nunc sem, consequat non blandit non dictum a mauris."
+    },
+    {
+      "id": 2,
+      "number": "300k",
+      "title": "Total Sales per Month",
+      "desc": "Ut sit amet aliquam libero. Vestibulum ut consectetur orci. Pellentesque nunc sem, consequat non blandit non dictum a mauris."
+    }
+  ],
+  "one-product": [
+    {
+      "id": 1,
+      "image":"./src/assets/product-1.jpg",
+      "name": "Headphones",
+      "title": "Wireless Gaming Headphones MS920",
+      "price": "85.66",
+      "stars": "4.67"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image":"./src/assets/product-2.jpg",
+      "name": "Earphones",
+      "title": "Soundcore P30i True Wireless ANC Earbud",
+      "price": "24.99",
+      "stars": "4.33",
+      "discount":"45%",
+      "lineprice":"44.77"
+    },
+    {
+      "id": 2,
+      "image":"./src/assets/product-3.jpg",
+      "name": "Earphones",
+      "title": "Shokz OpenFit Air Open Ear True Wireless Earbuds",
+      "price": "138.22",
+      "stars": "4.67",
+      "discount":"11%",
+      "lineprice":"154.55"
+    },
+    {
+      "id": 3,
+      "image":"./src/assets/product-4.jpg",
+      "name": "Earphones",
+      "title": "PistonBuds PRO Q30 True",
+      "price": "62.44",
+      "stars": "4.33",
+      "discount":"24%",
+      "lineprice":"81.19"
+    },
+    {
+      "id": 4,
+      "image":"./src/assets/category-earphones.png",
+      "title": "Earphones",
+      "desc":"10 Products"
+      
+    },
+    {
+      "id": 5,
+      "image":"./src/assets/category-headphones.png",
+      "title": "Headphones",
+      "desc":"8 Products"
+      
+    },
+    {
+      "id": 6,
+      "image":"./src/assets/category-microphone.png",
+      "title": "Microphones",
+      "desc":"8 Products"
+      
+    },
+    {
+      "id": 7,
+      "image":"./src/assets/smartwatch.svg",
+      "title": "Smartwatches",
+      "desc":"7 Products"
+      
+    }
+  ],
+  "info": [
+    {
+      "id": 1,
+      "image":"./src/assets/footer.png",
+      "title": "Customer service",
+      "desc": "It’s not actually free we just price it into the products."
+      
+    },
+    {
+      "id": 2,
+      "image":"./src/assets/footer2.png",
+      "title": "Fast Free Shipping",
+      "desc": "Get free shipping on orders of $150 or more (within the US)"
+      
+    },
+    {
+      "id": 3,
+      "image":"./src/assets/footer3.png",
+      "title": "Returns & Exchanges",
+      "desc": "We offer free returns and exchanges within 30 days of purchase."
+      
+    },
+    {
+      "id": 4,
+      "image":"./src/assets/footer4.png",
+      "title": "Secure payment",
+      "desc": "Your payment information is processed securely and encrypted."
+      
+    }
+    
+  ]
+}
