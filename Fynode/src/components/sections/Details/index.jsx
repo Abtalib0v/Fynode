@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { PiArrowRight } from "react-icons/pi";
+import { ApiService } from "../../../services/Api";
 
 const Details = () => {
+  const Apidata = new ApiService();
   const [data, setData] = useState([]);
 
-  const apiFetchData = async () => {
-    fetch("http://localhost:3002/detail")
-      .then((res) => res.json())
-      .then((data) => setData(data));
-  };
   useEffect(() => {
-    apiFetchData();
-  }, []);
+Apidata.getApiData("detail").then((res) => {
+  setData(res);
+});
+  }, );
 
   return (
     <div className="container mx-auto px-11 font-[inter]">

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PiArrowRight } from "react-icons/pi";
 import { VscStarFull } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 
 const MostSold = () => {
   const [data, setData] = useState([]);
@@ -24,7 +25,7 @@ const MostSold = () => {
       </div>
       <div className="grid sm:grid-cols-1 2xl:grid-cols-3 justify-between gap-[35px]">
         {products.map((products) => (
-          <div key={products.id}>
+          <Link to={`/product/${products.id}`} key={products.id}>
             <div className="pro-cards rounded-xl overflow-hidden bg-[#f4f4f5] pb-[28px] relative">
               <div className="image">
                 <img
@@ -48,6 +49,9 @@ const MostSold = () => {
                   </span>
                 </div>
               </div>
+              <button className="h-[54px] rounded-[50px] px-[32px] text-white bg-black text-[15px]" >
+Add to cart
+              </button>
 
               <div className="stars absolute flex text-[12px] top-[24px] right-[24px] bg-[#fff] px-2.5 py-1.5 rounded-full pr-3 text-[#52525b] font-bold">
                 <span className="text-[#facc15] text-[16px]">
@@ -59,7 +63,7 @@ const MostSold = () => {
                 {products.discount}
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

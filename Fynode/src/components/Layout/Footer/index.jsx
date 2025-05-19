@@ -75,7 +75,7 @@ const Footer = () => {
                 <input className="outline-0 "
                   type="email"
                   name="Email"
-                  id="email"
+                  id="emailFooter"
                   placeholder="Enter your email address"
                 />
                 <button className="bg-black text-white text-[13px] h-[36px] rounded-[12px] border-transparent px-4">SEND</button>

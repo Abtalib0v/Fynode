@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react'
+import { ApiService } from '../../../services/Api';
 
 const About = () => {
+  const Apidata = new ApiService();
     const [data, setData] = useState([]);
     
-      const apiFetchData = async () => {
-        fetch("http://localhost:3002/info")
-          .then((res) => res.json())
-          .then((data) => setData(data));
-      };
       useEffect(() => {
-        apiFetchData();
-      }, []);
+        Apidata.getApiData("info").then((res)=>{
+          setData(res);
+        });
+      }, );
   return (
     <div className=' bg-black'> 
        <div className=' bg-white rounded-b-[56px]'>
